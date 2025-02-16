@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "08e9ae1eb712257d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea6a0196460bfae1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13f38839a7922b2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "十大算法/额外知识点.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "475850a115083ea4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d5630dbda5ddfc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "十大算法/额外知识点.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51aa31bc298c57e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffbc634edf32b4b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "843dad880b418102",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "da028037d70b3303",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b3dc853e71007f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7288b31d914a22f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "332f6c35d0c7e026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bedc1b9385b2e6b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "十大算法/额外知识点.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d0028ac78893e659",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "十大算法/额外知识点.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31f8ddb0642a112b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "389a5517087fa2ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "十大算法/额外知识点.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "13f38839a7922b2f",
+  "lastOpenFiles": [
+    "十大算法/Pasted image 20250209222457.png",
+    "十大算法/十大算法.md",
+    "十大算法/三个常用后剪枝.md",
+    "十大算法/额外知识点.md",
+    "十大算法/Pasted image 20250208121628.png",
+    "十大算法/Pasted image 20250208121612.png",
+    "十大算法/Pasted image 20250208121554.png",
+    "十大算法/Pasted image 20250208115647.png",
+    "十大算法/Pasted image 20250208115615.png",
+    "十大算法/Pasted image 20250125220329.png",
+    "十大算法/Pasted image 20250125220220.png",
+    "十大算法/随意.md"
+  ]
+}
