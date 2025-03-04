@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ea6a0196460bfae1",
+        "id": "c1acf1884a66fcdf",
         "type": "tabs",
         "children": [
           {
-            "id": "13f38839a7922b2f",
+            "id": "c52d5c47ea5a4c07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "十大算法/额外知识点.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "475850a115083ea4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1d5630dbda5ddfc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "十大算法/额外知识点.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -56,8 +36,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -72,7 +55,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -80,7 +65,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "十大算法/额外知识点.md",
+                "file": "十大算法/十大算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +98,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "十大算法 的反向链接列表"
             }
           },
           {
@@ -120,10 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "十大算法/额外知识点.md",
+                "file": "十大算法/十大算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "十大算法 的出链列表"
             }
           },
           {
@@ -134,7 +125,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -143,8 +136,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "十大算法/额外知识点.md"
-              }
+                "file": "十大算法/十大算法.md"
+              },
+              "icon": "lucide-list",
+              "title": "十大算法 的大纲"
             }
           }
         ]
@@ -164,19 +159,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "13f38839a7922b2f",
+  "active": "c52d5c47ea5a4c07",
   "lastOpenFiles": [
-    "十大算法/Pasted image 20250209222457.png",
+    "面试题/面试题-ai.md",
+    "面试题/面试题-python.md",
+    "算法/梯度消失或爆炸.md",
+    "算法/RNN系列.md",
+    "十大算法/随意.md",
     "十大算法/十大算法.md",
     "十大算法/三个常用后剪枝.md",
     "十大算法/额外知识点.md",
-    "十大算法/Pasted image 20250208121628.png",
-    "十大算法/Pasted image 20250208121612.png",
-    "十大算法/Pasted image 20250208121554.png",
-    "十大算法/Pasted image 20250208115647.png",
-    "十大算法/Pasted image 20250208115615.png",
-    "十大算法/Pasted image 20250125220329.png",
-    "十大算法/Pasted image 20250125220220.png",
-    "十大算法/随意.md"
+    "十大算法/Pasted image 20250303065614.png",
+    "面试题",
+    "算法/Pasted image 20250225103449.png",
+    "算法/Pasted image 20250225102422.png",
+    "算法/Pasted image 20250225094430.png",
+    "算法/Pasted image 20250225094313.png",
+    "算法/Pasted image 20250225094156.png",
+    "算法/Pasted image 20250225063720.png",
+    "算法/Pasted image 20250222225049.png",
+    "算法/Pasted image 20250222225044.png",
+    "算法/Pasted image 20250222224715.png",
+    "算法/图像算法/文本线构造算法.md",
+    "算法/图像算法/bilstm.md",
+    "大模型参数微调方法.md",
+    "nlp/算法复杂度.md",
+    "随意.md",
+    "nlp/错题.md",
+    "池化层.md",
+    "标注方法.md",
+    "nlp/词向量.md",
+    "nlp/词袋模型和skip-gram.md",
+    "face_recog/命令步骤.md",
+    "llm/llm_models.md",
+    "llm/llm_prompts.md",
+    "llm/llm_agent.md",
+    "算法/图像算法/CTPN.md",
+    "算法/图像算法/正负样本.md",
+    "算法/图像算法/卷积层.md"
   ]
 }
