@@ -171,3 +171,41 @@ async def main():
 # 运行异步主函数
 asyncio.run(main())
 ```
+
+#### docker
+- **镜像操作**
+  - `docker pull [OPTIONS] NAME[:TAG|@DIGEST]` 拉取一个镜像或仓库到本地
+  - `docker images [OPTIONS]` 列出本地镜像
+  - `docker rmi [OPTIONS] IMAGE [IMAGE...]` 移除一个或多个镜像
+  - `docker build [OPTIONS] PATH | URL | -` 使用Dockerfile构建镜像
+  - `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]` 标记本地镜像，将其归入某一仓库
+
+- **容器操作**
+  - `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]` 创建并启动一个容器
+  - `docker ps [OPTIONS]` 列出当前运行的容器
+  - `docker stop [OPTIONS] CONTAINER [CONTAINER...]` 停止运行中的容器
+  - `docker start [OPTIONS] CONTAINER [CONTAINER...]` 启动已存在的容器
+  - `docker restart [OPTIONS] CONTAINER [CONTAINER...]` 重启容器
+  - `docker rm [OPTIONS] CONTAINER [CONTAINER...]` 移除一个或多个容器
+  - `docker exec [OPTIONS] CONTAINER COMMAND [ARG...]` 在运行中的容器内执行命令
+  
+- **日志与信息查看**
+  - `docker logs [OPTIONS] CONTAINER` 获取容器的日志
+  - `docker inspect [OPTIONS] NAME|ID [NAME|ID...]` 查看容器详细信息
+  
+- **网络相关**
+  - `docker network ls` 列出所有网络
+  - `docker network create [OPTIONS] NETWORK` 创建网络
+  - `docker network connect [OPTIONS] NETWORK CONTAINER` 将容器连接到网络
+  - `docker network disconnect [OPTIONS] NETWORK CONTAINER` 断开容器与网络的连接
+  
+- **卷管理**
+  - `docker volume ls` 列出卷
+  - `docker volume create [OPTIONS] [VOLUME]` 创建卷
+  - `docker volume rm [OPTIONS] VOLUME [VOLUME...]` 移除卷
+  
+- **系统范围的操作**
+  - `docker system df` 显示Docker磁盘使用情况
+  - `docker system prune [OPTIONS]` 清理未使
+
+
