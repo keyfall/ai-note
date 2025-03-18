@@ -4,35 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "b87991dfaaefc6dc",
+        "id": "9d1dd856475cbfbc",
         "type": "tabs",
         "children": [
           {
-            "id": "59dae2c694e930cb",
+            "id": "aa02126ac3fb7c21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试题/面试题-ai.md",
+                "file": "算法/yolo.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "面试题-ai"
+              "title": "yolo"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3e9e5884da9942d1",
+        "type": "tabs",
+        "children": [
           {
-            "id": "8a2ac8aaf0e3b770",
+            "id": "4f069fdb222a8fa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试题/未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "算法/yolo.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "yolo"
             }
           }
         ]
@@ -92,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7288b31d914a22f7",
@@ -181,44 +188,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "59dae2c694e930cb",
+  "active": "4f069fdb222a8fa1",
   "lastOpenFiles": [
+    "十大算法/随意.md",
+    "十大算法/额外知识点.md",
+    "算法/四大分类算法.md",
+    "算法/生物伪装检测.md",
+    "算法/yolo.md",
+    "算法/VGGNet.md",
+    "算法/RNN系列.md",
+    "算法/ResNet.md",
+    "算法/alexnet.md",
+    "十大算法/Pasted image 20250317103147.png",
+    "算法/Pasted image 20250316230542.png",
+    "算法/Lenet.md",
+    "算法/梯度消失或爆炸.md",
+    "算法/CNN.md",
+    "十大算法/十大算法.md",
+    "算法/Pasted image 20250313210358.png",
+    "面试题/正则化.md",
+    "面试题/数据增强.md",
     "面试题/面试题-python.md",
     "面试题/面试题-ai.md",
-    "十大算法/额外知识点.md",
-    "算法/yolo.md",
-    "算法/生物伪装检测.md",
+    "算法/GoogleNet.md",
+    "算法/Pasted image 20250312094338.png",
+    "算法/Pasted image 20250312093006.png",
+    "算法/Pasted image 20250310111118.png",
+    "算法/Pasted image 20250310111051.png",
+    "算法/Pasted image 20250310092303.png",
+    "算法/Pasted image 20250222101701.png",
+    "算法/Pasted image 20250309223933.png",
+    "算法/图像算法/bilstm.md",
+    "算法/图像算法/CTPN.md",
     "face_recog/命令步骤.md",
     "算法/图像算法/文本线构造算法.md",
     "算法/图像算法/卷积层.md",
     "算法/图像算法/池化层.md",
-    "十大算法/随意.md",
-    "十大算法/十大算法.md",
     "十大算法/三个常用后剪枝.md",
-    "面试题/正则化.md",
-    "面试题/未命名.md",
-    "面试题/数据增强.md",
-    "算法/RNN系列.md",
-    "面试题/Pasted image 20250304105951.png",
-    "面试题/Pasted image 20250304105818.png",
-    "面试题/Pasted image 20250304102046.png",
-    "面试题/Pasted image 20250304102043.png",
-    "面试题/Pasted image 20250304100120.png",
-    "算法/梯度消失或爆炸.md",
-    "十大算法/Pasted image 20250303065614.png",
-    "面试题",
-    "算法/Pasted image 20250225103449.png",
-    "算法/Pasted image 20250225102422.png",
-    "算法/Pasted image 20250225094430.png",
-    "算法/Pasted image 20250225094313.png",
-    "算法/图像算法/bilstm.md",
-    "大模型参数微调方法.md",
-    "nlp/算法复杂度.md",
-    "随意.md",
-    "nlp/错题.md",
-    "池化层.md",
-    "标注方法.md",
-    "nlp/词向量.md",
-    "nlp/词袋模型和skip-gram.md"
+    "面试题"
   ]
 }
