@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试题/面试题-ai.md",
+                "file": "算法/大模型算法/大模型微调.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "大模型微调"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7b44c8ab19862062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb600dac475da73a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/大模型算法/大模型微调.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试题-ai"
+              "title": "大模型微调"
             }
           }
         ]
@@ -167,8 +187,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8370ddb801bdc5b0",
+  "active": "843dad880b418102",
   "lastOpenFiles": [
+    "面试题/面试题-ai.md",
+    "算法/大模型算法/大模型微调.md",
+    "算法/大模型算法/Transformer.md",
+    "算法/大模型算法/BERT.md",
+    "算法/大模型算法",
     "面试题/面试题-python.md",
     "十大算法/额外知识点.md",
     "算法/RNN系列.md",
@@ -184,7 +209,6 @@
     "算法/ResNet.md",
     "算法/VGGNet.md",
     "算法/yolo.md",
-    "面试题/面试题-ai.md",
     "算法/passthrough layer.md",
     "算法/Lenet.md",
     "算法/alexnet.md",
@@ -199,8 +223,6 @@
     "算法/图像算法/卷积层.md",
     "算法/图像算法/池化层.md",
     "十大算法/随意.md",
-    "十大算法/十大算法.md",
-    "十大算法/三个常用后剪枝.md",
     "十大算法/Pasted image 20250317103147.png",
     "十大算法/Pasted image 20250303065614.png",
     "十大算法/Pasted image 20250220165638.png",
