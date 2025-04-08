@@ -251,8 +251,8 @@ asyncio.run(main())
 |           | 302 | Found                 | 临时重定向                        |
 |           | 304 | Not Modified          | 资源未被修改，可以使用缓存版本。             |
 | **客户端错误** | 400 | Bad Request           | 由于语法错误，服务器无法理解该请求。           |
-|           | 401 | Unauthorized          | 当前请求需要用户验证。                  |
-|           | 403 | Forbidden             | 服务器理解请求但拒绝执行。无权限             |
+|           | 401 | Unauthorized          | 当前请求需要用户验证。无权限               |
+|           | 403 | Forbidden             | 服务器理解请求但拒绝执行。                |
 |           | 404 | Not Found             | 服务器找不到请求的网页或资源。              |
 |           | 405 | Method Not Allowed    | 禁用请求中指定的方法。                  |
 |           | 429 | Too Many Requests     | 用户在给定时间内发送了太多请求。             |
