@@ -1,3 +1,60 @@
+#### 多重继承，父类相同名称函数调用
+```
+class C(A, B):
+    def call_foo(self):
+        A.foo(self)  # 显式调用 A 的 foo
+        B.foo(self)  # 显式调用 B 的 foo
+
+c = C()
+c.call_foo()
+```
+```
+class C(A, B):
+    def call_foo(self):
+        super().foo()       # 调用 MRO 中的第一个类（即 A 的 foo）
+        super(A, self).foo()  # 跳过 A，调用下一个类（即 B 的 foo）
+
+c = C()
+c.call_foo()
+```
+#### 迭代器与生成器
+```
+my_list = [1, 2, 3, 4, 5]
+my_iterator = iter(my_list)
+print(next(my_iterator))  # 输出1
+print(next(my_iterator))  # 输出2
+print(next(my_iterator))  # 输出3
+ # 生成器示例
+def my_generator():
+    yield 1
+    yield 2
+    yield 3
+ gen = my_generator()
+print(next(gen))  # 输出1
+print(next(gen))  # 输出2
+print(next(gen))  # 输出3
+```
+迭代器遍历完所有元素后，再次调用next()方法会抛出StopIteration异常。
+生成器执行完毕后，会自动抛出StopIteration异常。
+#### 装饰器
+可以在不修改原函数代码的情况下，为函数添加额外的功能。
+```
+import time
+ def timer(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print('函数 %s 执行时间为 %f 秒' % (func.__name__, end_time - start_time))
+        return result
+    return wrapper
+ @timer
+def my_func():
+    # 执行一些操作
+    pass
+ my_func()
+
+```
 #### 内存溢出：
 看情况
 - 列表原因，就可以换生成器来迭代数据
@@ -126,6 +183,7 @@ t1.join()
 t2.join()
 ```
 
+
 #### 进程，协程，线程区别
 | 特性/类型       | 线程 (Threads)       | 进程 (Processes)        | 协程 (Coroutines) |
 | ----------- | ------------------ | --------------------- | --------------- |
@@ -137,6 +195,69 @@ t2.join()
 | **适用场景**    | 并发任务，快速响应          | 并行任务，安全要求高            | 高并发I/O密集型任务     |
 | **优点**      | 数据共享效率高，适合I/O密集型任务 | 更好的稳定性和安全性，适合CPU密集型任务 | 高效，易于编写异步代码     |
 | **缺点**      | 容易出现同步问题，调试困难      | 开销大，进程间通信复杂           | 无法直接利用多核优势      |
+
+#### 多线程，多进程demo
+多线程
+```
+import threading
+import time
+
+# 定义一个简单的函数，模拟耗时操作
+def target_function(thread_name):
+    print(f"{thread_name} is starting...")
+    time.sleep(2)  # 模拟耗时操作
+    print(f"{thread_name} has finished.")
+
+# 创建线程列表
+threads = []
+
+# 创建两个线程
+for i in range(2):
+    thread_name = f"Thread-{i+1}"
+    thread = threading.Thread(target=target_function, args=(thread_name,))
+    threads.append(thread)
+
+# 启动所有线程
+for thread in threads:
+    thread.start()
+
+# 等待所有线程完成
+for thread in threads:
+    thread.join()
+
+print("All threads have completed.")
+```
+多进程
+```
+import multiprocessing
+import time
+
+# 定义一个简单的函数，模拟耗时操作
+def target_function(process_name):
+    print(f"{process_name} is starting...")
+    time.sleep(2)  # 模拟耗时操作
+    print(f"{process_name} has finished.")
+
+# 创建进程列表
+processes = []
+
+# 创建两个进程
+for i in range(2):
+    process_name = f"Process-{i+1}"
+    process = multiprocessing.Process(target=target_function, args=(process_name,))
+    processes.append(process)
+
+# 启动所有进程
+for process in processes:
+    process.start()
+
+# 等待所有进程完成
+for process in processes:
+    process.join()
+
+print("All processes have completed.")
+```
+
 #### 协程
 协程是一个由代码控制的异步程序，一个
 ```
