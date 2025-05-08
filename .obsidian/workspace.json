@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dccf9c453e6ca701",
+        "id": "b6791d262fa7f6c8",
         "type": "tabs",
         "children": [
           {
-            "id": "8702baee9085f40f",
+            "id": "85276f270f422115",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/图像算法/图像分析.md",
+                "file": "面试题/面试题-ai.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f5a1ea98e54317b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0e11ec9e1e8b7d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/图像算法/图像分析.md",
-                "mode": "preview",
-                "source": true
-              }
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "面试题-ai"
             }
           }
         ]
@@ -56,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -72,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -80,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -111,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "图像分析 的反向链接列表"
             }
           },
           {
@@ -123,7 +116,9 @@
                 "file": "算法/图像算法/图像分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "图像分析 的出链列表"
             }
           },
           {
@@ -133,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -143,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/图像算法/图像分析.md"
-              }
+                "file": "算法/图像算法/图像分析.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "图像分析 的大纲"
             }
           }
         ],
@@ -165,44 +169,47 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8702baee9085f40f",
+  "active": "85276f270f422115",
   "lastOpenFiles": [
-    "算法/图像算法/Pasted image 20250422191809.png",
-    "算法/图像算法/Pasted image 20250422191754.png",
-    "算法/图像算法/Pasted image 20250418162707.png",
-    "算法/图像算法/Pasted image 20250418162658.png",
-    "算法/图像算法/图像处理.md",
+    "面试题/项目.md",
+    "面试题/未命名.md",
+    "十大算法/额外知识点.md",
+    "算法/yolo.md",
+    "面试题/正则化.md",
+    "面试题/数据增强.md",
+    "十大算法/未命名.md",
+    "面试题/面试题-ai.md",
+    "面试题/面试题-python.md",
+    "项目/cv项目/YOLOv4，OpenCV, Tesseract OCR实现车牌识别/介绍.md",
+    "项目/cv项目/YOLOv4，OpenCV, Tesseract OCR实现车牌识别/Pasted image 20250430150045.png",
+    "算法/图像算法/图像分割.md",
+    "项目/cv项目/YOLOv4，OpenCV, Tesseract OCR实现车牌识别",
+    "项目/cv项目",
+    "项目",
     "算法/图像算法/图像分析.md",
+    "算法/图像算法/图像处理.md",
+    "算法/图像算法/小波和多分辨率处理.md",
+    "算法/图像算法/形态处理.md",
+    "算法/图像算法/压缩.md",
+    "算法/图像算法/彩色图像处理.md",
+    "算法/图像算法/图像修复.md",
+    "面试题/Pasted image 20250426184444.png",
+    "面试题/单链接，全链接，平均链接.md",
+    "算法/图像算法/[[面试题-ai.md",
+    "算法/图像算法/聚类算法.md",
+    "算法/图像算法/Pasted image 20250425185407.png",
+    "算法/图像算法/Pasted image 20250425182441.png",
+    "算法/图像算法/Pasted image 20250425182247.png",
+    "算法/图像算法/Pasted image 20250425180751.png",
+    "算法/图像算法/Pasted image 20250425115914.png",
+    "算法/图像算法/Pasted image 20250425105238.png",
+    "算法/图像算法/分割.md",
     "算法/图像算法/图像预处理.md",
     "算法/图像算法/图像增强.md",
-    "算法/图像算法/Pasted image 20250413102943.png",
-    "算法/图像算法/Pasted image 20250418104533.png",
-    "算法/图像算法/Pasted image 20250418095321.png",
-    "算法/图像算法/Pasted image 20250417164001.png",
-    "算法/图像算法/Pasted image 20250417161939.png",
-    "算法/图像算法/Pasted image 20250417160909.png",
-    "算法/图像算法/Pasted image 20250417160536.png",
+    "算法/图像算法/Pasted image 20250425022509.png",
+    "算法/图像算法/Pasted image 20250425010618.png",
     "算法/大模型/语料库.md",
     "nlp/nlp关键技术.md",
-    "nlp/Word2Vec与BERT.md",
-    "nlp/文本处理流程.md",
-    "nlp/文本相似度.md",
-    "nlp/链式法则和马尔科夫假设.md",
-    "nlp/过滤词和标准化.md",
-    "nlp/分词.md",
-    "nlp/错题.md",
-    "nlp/词向量.md",
-    "nlp/词袋模型和skip-gram.md",
-    "llm/llm_agent.md",
-    "面试题/面试题-python.md",
-    "面试题/ss.md",
-    "十大算法/额外知识点.md",
-    "算法/CNN.md",
-    "算法/alexnet.md",
-    "算法/四大分类算法.md",
-    "算法/GoogleNet.md",
-    "算法/ResNet.md",
-    "算法/VGGNet.md",
     "算法/大模型",
     "算法/图像算法/未命名",
     "面试题"

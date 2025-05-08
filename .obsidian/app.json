@@ -1,5 +1,8 @@
 {
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": true,
+  "spellcheck": false
 }
