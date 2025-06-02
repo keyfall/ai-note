@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dccf9c453e6ca701",
+        "id": "84b02d4463a7d315",
         "type": "tabs",
         "children": [
           {
-            "id": "8370ddb801bdc5b0",
+            "id": "56fbad2772f7995a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/大模型算法/大模型微调.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "大模型微调"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7b44c8ab19862062",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fb600dac475da73a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/大模型算法/大模型微调.md",
+                "file": "算法/生物伪装检测.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型微调"
+              "title": "生物伪装检测"
             }
           }
         ]
@@ -189,43 +169,43 @@
   },
   "active": "843dad880b418102",
   "lastOpenFiles": [
+    "算法/四大分类算法.md",
+    "面试题/正则化.md",
+    "面试题/面试题-python.md",
     "面试题/面试题-ai.md",
+    "面试题/预处理代码.md",
+    "十大算法/额外知识点.md",
+    "十大算法/Pasted image 20250512151552.png",
+    "十大算法/十大算法.md",
+    "十大算法/三个常用后剪枝.md",
+    "算法/RNN系列.md",
+    "算法/GoogleNet.md",
+    "算法/Lenet.md",
+    "算法/VGGNet.md",
+    "算法/alexnet.md",
+    "算法/yolo.md",
+    "池化层.md",
+    "大模型参数微调方法.md",
+    "标注方法.md",
+    "算法/梯度消失或爆炸.md",
+    "面试题/数据增强.md",
+    "算法/ResNet.md",
+    "算法/生物伪装检测.md",
     "算法/大模型算法/大模型微调.md",
     "算法/大模型算法/Transformer.md",
     "算法/大模型算法/BERT.md",
     "算法/大模型算法",
-    "面试题/面试题-python.md",
-    "十大算法/额外知识点.md",
-    "算法/RNN系列.md",
     "十大算法/Pasted image 20250406220018.png",
     "十大算法/Pasted image 20250406214143.png",
     "十大算法/Pasted image 20250406213006.png",
     "十大算法/Pasted image 20250406212342.png",
     "十大算法/Pasted image 20250406205742.png",
     "十大算法/Pasted image 20250406205456.png",
-    "算法/四大分类算法.md",
-    "算法/生物伪装检测.md",
-    "算法/GoogleNet.md",
-    "算法/ResNet.md",
-    "算法/VGGNet.md",
-    "算法/yolo.md",
     "算法/passthrough layer.md",
-    "算法/Lenet.md",
-    "算法/alexnet.md",
     "算法/CNN.md",
-    "算法/梯度消失或爆炸.md",
-    "算法/图像算法/VGG16.md",
     "算法/图像算法/Pasted image 20250109165804.png",
-    "算法/图像算法/bilstm.md",
-    "算法/图像算法/CTPN.md",
-    "算法/图像算法/文本线构造算法.md",
-    "算法/图像算法/正负样本.md",
-    "算法/图像算法/卷积层.md",
-    "算法/图像算法/池化层.md",
-    "十大算法/随意.md",
     "十大算法/Pasted image 20250317103147.png",
     "十大算法/Pasted image 20250303065614.png",
-    "十大算法/Pasted image 20250220165638.png",
     "面试题"
   ]
 }
